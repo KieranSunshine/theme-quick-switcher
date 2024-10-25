@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+
+        "skipLibCheck": true,
+        "target": "es2022",
+        "isolatedModules": true,
+        "verbatimModuleSyntax": true,
+        "lib": ["es2022", "WebWorker"],
+        "removeComments": true,
+        
+        "outDir": "dist",
+        "module": "ESNext",
+        
+        "strict": true,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitOverride": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitAny": true,
+    },
+    "include": ["env.d.ts", "src/**/*.ts"],
+}

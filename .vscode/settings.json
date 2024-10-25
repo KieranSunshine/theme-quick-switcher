@@ -1,0 +1,35 @@
+{
+	"editor.formatOnSave": true,
+	"editor.quickSuggestions": {
+		"strings": "on"
+	},
+	
+	"files.exclude": {
+		".vs": true,
+		".idea": true,
+		"**/dist": true,
+		"**/node_modules": true,
+	},
+
+	"files.associations": {
+		"*.css": "tailwindcss",
+	},
+
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"css.customData": [
+		".vscode/tailwind.json"
+	],
+
+	"typescript.tsdk": "node_modules\\typescript\\lib"
+}

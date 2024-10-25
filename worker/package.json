@@ -1,0 +1,16 @@
+{
+  "name": "theme-quick-switcher_worker",
+  "version": "1.0.0",
+  "description": "Service Worker for theme-quick-switcher",
+  "main": "worker.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "Kieran Sunshine",
+  "license": "ISC",
+  "devDependencies": {
+    "chrome-types": "0.1.312",
+    "typescript": "5.6.3"
+  }
+}
