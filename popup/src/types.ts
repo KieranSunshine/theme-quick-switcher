@@ -1,5 +1,4 @@
-
 export type Theme = {
-    id: string;
-    name: string;
-}
+	id: string;
+	name: string;
+};
