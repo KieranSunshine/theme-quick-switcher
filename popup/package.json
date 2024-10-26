@@ -25,6 +25,7 @@
 	},
 	"dependencies": {
 		"@heroicons/vue": "2.1.5",
+		"pinia": "2.2.4",
 		"vue": "3.5.12",
 		"zod": "3.23.8"
 	}
